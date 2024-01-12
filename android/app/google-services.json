@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "130290273647",
+    "project_id": "access-system-fyp",
+    "storage_bucket": "access-system-fyp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:130290273647:android:bdf249aeecf4b9187d6c9a",
+        "android_client_info": {
+          "package_name": "com.example.rfid_access_management_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaqjy-wi7j85UBl4wZqRlUpUYS-RRtGyo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
