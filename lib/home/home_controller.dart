@@ -51,7 +51,9 @@ class HomepageController extends GetxController {
       holderName: holderName,
       isTimed: false,
       grantAccess: true,
-      endTime: DateTime.now().microsecondsSinceEpoch,
+      endTime: int.parse(
+        DateTime.now().microsecondsSinceEpoch.toString().substring(0, 10),
+      ),
     );
     DatabaseReference ref = FirebaseDatabase.instance.ref("access_data/$rfId");
 
